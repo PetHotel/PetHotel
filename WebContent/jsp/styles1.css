@@ -1,0 +1,14 @@
+body, html {
+	height: 100%;
+    margin: 0;
+}
+body {
+	background-image: url(images/bg1.jpg);
+	background-repeat: repeat-x;
+	background-position: top left;
+	background-color: #1eb3b2;
+}
+
+#st2, #st3 {
+	display: none;
+}

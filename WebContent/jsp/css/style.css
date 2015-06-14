@@ -1,0 +1,119 @@
+
+
+/*** CONTAINER ***/
+#bodychild{width:900px; margin:0px auto; padding:10px 0px;}
+#outercontainer{ width:900px;  }
+#outerheader{
+	-webkit-border-top-left-radius: 8px;
+-webkit-border-top-right-radius: 8px;
+-moz-border-radius-topleft: 8px;
+-moz-border-radius-topright: 8px;
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+}
+#outerfooter{
+ border-top:1px solid #e0e0e0;
+-webkit-border-bottom-left-radius: 8px;
+-webkit-border-bottom-right-radius: 8px;
+-moz-border-radius-bottomleft: 8px;
+-moz-border-radius-bottomright: 8px;
+border-bottom-left-radius: 8px;
+border-bottom-right-radius: 8px;	
+}
+#outerheader, #outerslider, #outerbeforecontent, #outermain{width:100%; margin:0 auto; }
+#slidercontainer, #beforecontent, #maincontent, #footer{width:940px; margin:0 auto;}
+
+
+/*** END CONTAINER ***/
+
+
+
+
+/*** SLIDER ***/
+#outerslider{ padding-bottom:11px;}
+#slidercontainer{position:relative; padding:0px 0 0 0; }
+
+/* == Slider Gallery== */
+#slider{position:relative; }
+.jcarousel-container {
+	overflow:hidden;
+	width:785px;
+	height:107px;
+	margin:20px auto 0 auto;
+	position: relative;
+	clear:both;
+	padding:0;
+}
+.jcarousel-clip {
+	z-index: 2;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	position: relative;
+}
+
+.jcarousel-list {
+	z-index: 1;
+	overflow: hidden;
+	position: relative;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.jcarousel-item {
+	float: left;
+	list-style: none;
+	/* We set the width/height explicitly. No width/height causes infinite loops. */
+	width:185px;
+	margin-right:15px;
+}
+
+#feature_gallery {
+	width:840px;
+	padding:0;
+	margin:0;
+	overflow:hidden;
+}
+
+ul#feature_gallery_pager {
+	display:block;
+	overflow:hidden;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+#feature_gallery ul.menu li a:hover {}
+ul#feature_gallery_pager li a {
+	overflow:hidden;
+	float:left;
+	width:145px;
+	height:46px;
+	padding:5px; background:#d2d0ba;
+	display:block;
+}
+ul#feature_gallery_pager li {}
+#feature_gallery ul.menu a.activeSlide {
+	
+}
+#feature_gallery .bigimgs {
+	width:840px;
+	height:388px;
+	margin:0;	
+}
+#feature_gallery .bigimg {
+	width:840px;
+	height:388px;
+	display:none;
+}
+
+#feature_gallery img.change {
+	width:840px;
+}
+#feature_gallery img.thumb {
+	width:175px;
+	height:66px;
+}
+
